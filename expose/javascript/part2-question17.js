@@ -11,4 +11,3 @@ function doSomething(num) {
 }
 
 modifyArray([1, 2, 3], doSomething);
-console.log(newArr);
