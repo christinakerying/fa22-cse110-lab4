@@ -9,6 +9,6 @@ let statistics = {
 
 for (let prop in statistics) {
   if (prop[0]==="r" || statistics[prop]%2!==0) {
-    console.log(`${prop}:${object[property]}`);
+    console.log(`${prop}:${statistics[prop]}`);
   }
 }
